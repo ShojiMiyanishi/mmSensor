@@ -9,11 +9,11 @@
 /* Begin PBXBuildFile section */
 		A3D35B0B1FE8C8B500C68F47 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D35B0A1FE8C8B500C68F47 /* AppDelegate.swift */; };
 		A3D35B0D1FE8C8B500C68F47 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D35B0C1FE8C8B500C68F47 /* ViewController.swift */; };
-		A3D35B101FE8C8B500C68F47 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3D35B0E1FE8C8B500C68F47 /* Main.storyboard */; };
-		A3D35B121FE8C8B500C68F47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3D35B111FE8C8B500C68F47 /* Assets.xcassets */; };
-		A3D35B151FE8C8B500C68F47 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3D35B131FE8C8B500C68F47 /* LaunchScreen.storyboard */; };
 		A3D35B201FE8C8B500C68F47 /* mmSensorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D35B1F1FE8C8B500C68F47 /* mmSensorTests.swift */; };
 		A3D35B2B1FE8C8B500C68F47 /* mmSensorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D35B2A1FE8C8B500C68F47 /* mmSensorUITests.swift */; };
+		A3D35B451FE8DE0000C68F47 /* NextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D35B441FE8DE0000C68F47 /* NextViewController.swift */; };
+		A3D35B471FE9EE2000C68F47 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3D35B461FE9EE2000C68F47 /* Images.xcassets */; };
+		A3D35B4B1FECA13800C68F47 /* PeripheralViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D35B4A1FECA13800C68F47 /* PeripheralViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,9 +37,6 @@
 		A3D35B071FE8C8B500C68F47 /* mmSensor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mmSensor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3D35B0A1FE8C8B500C68F47 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A3D35B0C1FE8C8B500C68F47 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A3D35B0F1FE8C8B500C68F47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A3D35B111FE8C8B500C68F47 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A3D35B141FE8C8B500C68F47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A3D35B161FE8C8B500C68F47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A3D35B1B1FE8C8B500C68F47 /* mmSensorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mmSensorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3D35B1F1FE8C8B500C68F47 /* mmSensorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mmSensorTests.swift; sourceTree = "<group>"; };
@@ -47,6 +44,9 @@
 		A3D35B261FE8C8B500C68F47 /* mmSensorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mmSensorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3D35B2A1FE8C8B500C68F47 /* mmSensorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mmSensorUITests.swift; sourceTree = "<group>"; };
 		A3D35B2C1FE8C8B500C68F47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3D35B441FE8DE0000C68F47 /* NextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextViewController.swift; sourceTree = "<group>"; };
+		A3D35B461FE9EE2000C68F47 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A3D35B4A1FECA13800C68F47 /* PeripheralViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeripheralViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +99,10 @@
 			children = (
 				A3D35B0A1FE8C8B500C68F47 /* AppDelegate.swift */,
 				A3D35B0C1FE8C8B500C68F47 /* ViewController.swift */,
-				A3D35B0E1FE8C8B500C68F47 /* Main.storyboard */,
-				A3D35B111FE8C8B500C68F47 /* Assets.xcassets */,
-				A3D35B131FE8C8B500C68F47 /* LaunchScreen.storyboard */,
 				A3D35B161FE8C8B500C68F47 /* Info.plist */,
+				A3D35B441FE8DE0000C68F47 /* NextViewController.swift */,
+				A3D35B461FE9EE2000C68F47 /* Images.xcassets */,
+				A3D35B4A1FECA13800C68F47 /* PeripheralViewController.swift */,
 			);
 			path = mmSensor;
 			sourceTree = "<group>";
@@ -232,9 +232,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A3D35B151FE8C8B500C68F47 /* LaunchScreen.storyboard in Resources */,
-				A3D35B121FE8C8B500C68F47 /* Assets.xcassets in Resources */,
-				A3D35B101FE8C8B500C68F47 /* Main.storyboard in Resources */,
+				A3D35B471FE9EE2000C68F47 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,7 +257,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3D35B4B1FECA13800C68F47 /* PeripheralViewController.swift in Sources */,
 				A3D35B0D1FE8C8B500C68F47 /* ViewController.swift in Sources */,
+				A3D35B451FE8DE0000C68F47 /* NextViewController.swift in Sources */,
 				A3D35B0B1FE8C8B500C68F47 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -294,25 +294,6 @@
 			targetProxy = A3D35B271FE8C8B500C68F47 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		A3D35B0E1FE8C8B500C68F47 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A3D35B0F1FE8C8B500C68F47 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		A3D35B131FE8C8B500C68F47 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A3D35B141FE8C8B500C68F47 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		A3D35B2D1FE8C8B500C68F47 /* Debug */ = {
@@ -426,6 +407,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P59BQUC35D;
 				INFOPLIST_FILE = mmSensor/Info.plist;
@@ -441,6 +423,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P59BQUC35D;
 				INFOPLIST_FILE = mmSensor/Info.plist;
